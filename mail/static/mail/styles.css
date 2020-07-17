@@ -1,0 +1,43 @@
+textarea {
+    min-height: 400px;
+}
+
+.email{
+    border: 1px black solid;
+    padding: 5px 1px;
+    overflow: auto;
+}
+
+.email:hover{
+    cursor: pointer;
+}
+
+.email-sender{
+    margin: 3px;
+    font-weight: bold;
+}
+
+.email-subject{
+    margin: 3px;
+    vertical-align: center;
+}
+
+.email-timestamp{
+    margin-right: 3px;
+    color: gray;
+    float: right;
+    font-size: 18px;
+}
+
+.detail-label{
+    font-weight: bold;
+}
+
+.email-details{
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 5px;
+}
+
+.email-body{
+    padding-top: 20px;
+}
